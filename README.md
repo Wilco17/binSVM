@@ -24,6 +24,8 @@ Use predictLabel method to obtain predicted class:
     vector<double>    featrues(X) ={...};
     int predic      = mySVM.predictLabel(features);
     
+NOTE: features vector dimension has to be consistent with the INI configuration file of the SVM classifier
+
 Class:
 
         class SVMclassifier {...
