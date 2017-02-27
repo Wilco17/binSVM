@@ -8,7 +8,7 @@ This software implements SVMClassifier class: a SVMClassifier object performs bi
 
 This software DOES NOT TRAIN SVM classifiers.
 
-SVM Classifier is given in a INI file "SVM.INI"
+SVM Classifier is given in a INI file. SEE "SVM.INI"
 
 VERSION 1.0 = ONLY GAUSSIAN KERNEL IS IMPLEMENTED
 
@@ -24,7 +24,7 @@ Use predictLabel method to obtain predicted class:
     vector<double>    featrues(X) ={...};
     int predic      = mySVM.predictLabel(features);
     
-Classes:
+Class:
 
         class SVMclassifier {...
         
@@ -36,9 +36,9 @@ Public methods:
         
      vector<vector<double>>    getVectors(void);  /** Get supoort vectors **/
      double                    getBias(void);     /** Get classification bias **/
-     vector<double>            getMu(void);       /** Get mean of vectors (for scaling purposes) **/
-     vector<double>            getSigma(void);    /** Get std. deviation (for scaling purposes) **/
-     int                       predictLabel(vector<double> features); /** Perform classification **/
+     vector<double>            getMu(void);       /** Get mean of supported vectors (for scaling purposes) **/
+     vector<double>            getSigma(void);    /** Get std. deviation of supported vectors (for scaling purposes) **/
+     int                       predictLabel(vector<double> features); /** Perform classification (1,0) **/
  
 # INSTALLATION
 
