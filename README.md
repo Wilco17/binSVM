@@ -16,7 +16,7 @@ VERSION 1.0 = ONLY GAUSSIAN KERNEL IS IMPLEMENTED
 
 Create SVMClassifier object:
 
-    string          svmIniFile                      =   "SVM_95.ini";
+    string          svmIniFile                      =   "SVM.ini";
     SVMclassifier   mySVM(svmIniFile);
     
 Use predictLabel method to obtain predicted class:
