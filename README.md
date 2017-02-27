@@ -8,7 +8,9 @@ This software implements SVMClassifier class: a SVMClassifier object performs bi
 
 This software DOES NOT TRAIN SVM classifiers.
 
-SVM Classifier is given in a INI file. SEE "SVM.INI"
+SVM Classifier is given in a INI file:
+
+    SVM.INI: This classifier was randomly generated for explanation purposes
 
 VERSION 1.0 = ONLY GAUSSIAN KERNEL IS IMPLEMENTED (CONTRIBUTIONS FOR OTHER KERNELS WILL BE NICELY RECEIVED)
 
