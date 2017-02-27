@@ -10,7 +10,7 @@ This software DOES NOT TRAIN SVM classifiers.
 
 SVM Classifier is given in a INI file. SEE "SVM.INI"
 
-VERSION 1.0 = ONLY GAUSSIAN KERNEL IS IMPLEMENTED
+VERSION 1.0 = ONLY GAUSSIAN KERNEL IS IMPLEMENTED (CONTRIBUTIONS FOR OTHER KERNELS WILL BE NICELY RECEIVED)
 
 # USAGE
 
@@ -49,3 +49,7 @@ Add /include/binSVM.h and binSVM.cpp to your project and link them properly
 IMPORTANT:
 
 This software uses SimpleIni to read the INI file, so you have to install it: https://github.com/brofield/simpleini
+
+# CONTACT
+
+Any issues, commentaries or contributions are well received in jaureguinovo@gmail.com or ignaciojauregui@gts.uvigo.es
